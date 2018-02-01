@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Race to the South Pole | Prasanta Kr Dutta</title>
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"> -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0/css/bootstrap.min.css">
+    <!-- Your custom styles (optional) -->
+    <link href="viz.css" rel="stylesheet">
+</head>
+<body>
+    <section  id="section1" class="mb-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center fullscreen-bg" id="cover">
+                <div class="_pattern-overlay"></div>
+                <video loop muted autoplay poster="assets/videoframe.jpg" class="fullscreen-bg_video">
+                    <source src="assets/introtica.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="row justify-content-center" id="title-row">
+                <div class="col-10 col-xl-4 align-self-end">
+                    <h1 class="h1-responsive text-center my-3" id="title">Race to the South Pole</h1>
+                    <p class="text-center" id="subtitle">In the short Antarctic summer of 1911&mdash;1912 five Britons and five Norwegians raced each other to the bottom of the world, hoping to add the feather of the polar conquest to their cap.<br><br> Only the Norwegians returned. What happened to the British?</p>
+                    <!-- <hr class="my-2"> -->
+                </div>
+            </div>
+            <!-- <div class="row justify-content-center">
+                <p class="text-center small d-inline">Global&nbsp;</p>
+                <p class="text-center small d-inline-block" id="maxline">&mdash; Maximum &nbsp; </p>
+                <p class="text-center small d-inline">and&nbsp;</p> 
+                <p class="text-center small d-inline-block" id="minline"> &mdash; Minimum&nbsp; </p>
+                <p class="text-center small d-inline">Land Temperatures from 1850&ndash;2015&nbsp;</p>
+            </div> -->
+        </div>
+    </section>
+    <!-- <section id="section2" class="mb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="btn-group" id="coverSeason" role="group">
+                    <button type="button" class="btn btn-outline-secondary btn-sm mb-2 active" id="Monthly" onclick="drawMinMax('Monthly')">All Months</button>
+                    <button type="radio" class="btn btn-outline-secondary btn-sm mb-2" id="Summer" onclick="drawMinMax('Summer')">Summer</button>
+                    <button type="radio" class="btn btn-outline-secondary btn-sm mb-2" id="Autumn" onclick="drawMinMax('Autumn')">Autumn</button>
+                    <button type="radio" class="btn btn-outline-secondary btn-sm mb-2" id="Winter" onclick="drawMinMax('Winter')">Winter</button>
+                    <button type="radio" class="btn btn-outline-secondary btn-sm mb-2" id="Spring" onclick="drawMinMax('Spring')">Spring</button> 
+                </div>  
+            </div>            
+
+            <div class="row justify-content-center">
+                <p class="text-center small d-inline">Global&nbsp;</p>
+                <p class="text-center small d-inline-block" id="maxline">&mdash; Maximum &nbsp; </p>
+                <p class="text-center small d-inline">and&nbsp;</p> 
+                <p class="text-center small d-inline-block" id="minline"> &mdash; Minimum&nbsp; </p>
+                <p class="text-center small d-inline">Land Temperatures from 1850&ndash;2015&nbsp;</p>
+            </div>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-8">
+                    <p class="text-left lead">Do you feel the summers are currently hotter than what it used to be ten years back? Do you think the winters are arriving later than when you thought &mdash; <em>"Winter is Coming"</em>&nbsp;?</p>
+                    <div class="alert alert-light">The last time the Global Minimum temperature on land in November went sub-zero was in the autumn of 1952 (-0.16&deg;C). By 2015, the November temperatures rose to 2.16&deg;C. Also, it was in December 2015, that the Global Minimum land temperature went above zero for the first time in 165 years.</div>
+                    <p class="text-left">Global temperatures on Earth have been on the rise over the past century as evident from the above chart. This has been a primary reason behind changes in the global climate &mdash; which have been quite drastic in the last couple of decades &mdash; making Global Climate Change a topic of serious concern for more than a decade.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0/js/bootstrap.min.js"></script>
+    <!-- <script src="d3/d3-bootstrap.min.js"></script> -->
+    <!-- d3 js -->
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script src="d3/d3.js"></script>
+    <script src="d3/d3-selection.js"></script>
+    <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="viz.js"></script>
+</body>
+</html>
